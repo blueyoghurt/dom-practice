@@ -1,3 +1,25 @@
+body {
+  background-color: grey;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 30px;
+}
+
+#mainbox {
+  width: 400px;
+  height: 30px;
+}
+
+#value-to-convert{
+  text-align: center;
+}
+
+.checkbox {
+}
+
 #block {
   display: inline-block;
   width: 100px;
@@ -5,10 +27,24 @@
   border: solid black 1px;
 }
 
-.blue {
-  background-color: blue;
+.turnBlue {
+  background-color: #3232ff;
 }
 
-.red {
-  background-color: red;
+turnRed {
+  background-color: #e34949;
+}
+
+.turnGreen {
+  background-color: green;
+}
+
+#results-box{
+  width: 500px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+#results {
+  width: 100%
 }

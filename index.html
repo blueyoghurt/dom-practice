@@ -8,15 +8,24 @@
     <script src="main.js"></script>
   </head>
   <body>
-    <h1 id="title">DOM Practice</h1>
+    <h1 id="title">Temperature Converter</h1>
+    <input type="number" placeholder="enter a number" id="value-to-convert"/>
+    <br><br>
+      <input class="radioButton" type="radio" name="scale" value="C" checked>
+        <sup>o</sup>C
+      <input class="radioButton" type="radio" name="scale" value="F">
+        <sup>o</sup>F
+      <br><br>
     <div>
-      <div id="block" class="blue"></div>
+      <form name="myForm" onsubmit="return false">
+        <button id="submitConvert">Submit</button>
+        <button id="clear">Clear</button>
+      </form>
     </div>
-    <div>
-      <input type="number" value="42" placeholder="enter a number"/>
-      <button id="set-title">set title</button>
-      <button id="blue">blue</button>
-      <button id="red">red</button>
+    <br><br>
+    <div id="results-box" class="turnGreen">
+        <span id="results"> Enter a temperature to convert
+        </span>
     </div>
   </body>
 </html>
